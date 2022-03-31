@@ -4,29 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+            
+            /*Shorthand - Background
+            color > image > position > repeat > [size] > attachment*/
+            
+            /*Abaixo simplificação de todo o código acima - apenas cover não está funcionando.*/
+
+            background-size: cover;
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
         }
         main {
             background-color: white;
-            width: 400px; 
+            max-width: 400px; 
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+        }
+        main, p{
+            text-align: justify;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam fuga deserunt! Corporis id numquam maxime illo neque eligendi laudantium facere optio nam velit fugiat atque provident sint, enim labore?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, doloremque at magni saepe eaque ea eligendi architecto labore. Et facilis modi amet commodi laudantium, provident debitis? Doloremque repellat deserun Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem eos ut non, praesentium perferendis, quod nisi omnis error assumenda fuga fugiat. Consequatur impedit vel pariatur? Illo dicta sit obcaecati accusantium!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam fuga deserunt! Corporis id numquam maxime illo neque eligendi laudantium facere optio nam velit fugiat atque provident sint, enim labore?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, doloremque at magni saepe eaque ea eligendi architecto labore. Et facilis modi amet commodi laudantium, provident debitis? Doloremque repellat deserun Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem eos ut non, praesentium perferendis, quod nisi omnis error assumenda fuga fugiat. Consequatur impedit vel pariatur? Illo dicta sit obcaecati accusantium!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam fuga deserunt! Corporis id numquam maxime illo neque eligendi laudantium facere optio nam velit fugiat atque provident sint, enim labore?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, doloremque at magni saepe eaque ea eligendi architecto labore. Et facilis modi amet commodi laudantium, provident debitis? Doloremque repellat deserun Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem eos ut non, praesentium perferendis, quod nisi omnis error assumenda fuga fugiat. Consequatur impedit vel pariatur? Illo dicta sit obcaecati accusantium!</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam fuga deserunt! Corporis id numquam maxime illo neque eligendi laudantium facere optio nam velit fugiat atque provident sint, enim labore?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, doloremque at magni saepe eaque ea eligendi architecto labore. Et facilis modi amet commodi laudantium, provident debitis? Doloremque repellat deserun Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem eos ut non, praesentium perferendis, quod nisi omnis error assumenda fuga fugiat. Consequatur impedit vel pariatur? Illo dicta sit obcaecati accusantium!</p>
     </main>
     
